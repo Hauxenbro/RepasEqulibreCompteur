@@ -1,28 +1,28 @@
-# Balanced Meal Manager
+# Gestionnaire de Repas Équilibrés
 
-A Python Tkinter GUI application designed to calculate, organize, and verify the nutritional balance of meals distributed during an event.
+Une application Tkinter en Python développée pour calculer, organiser et vérifier l'équilibre nutritionnel des repas distribués lors d'un événement. 
 
-## 📌 Features
+## 📌 Fonctionnalités
 
-* **Category Management**: Input and organize *Starters*, *Main Courses*, *Desserts*, and *Drinks*.
-* **Real-time Balance Calculation**: Automatic breakdown based on target proportions (Main Courses: 50%, Starters: 25%, Drinks: 15%, Desserts: 10%).
-* **Visual Alerts**: Notifications highlighting whether a meal is balanced or missing specific components.
-* **Detailed View**: View registered items per category in structured list views (`Treeview`).
-* **Modern Dark Theme**: Styled using the `Azure` theme for Tkinter.
+* **Gestion par catégories** : Saisie et répartition des *Entrées*, *Plats*, *Desserts* et *Boissons*.
+* **Calcul de l'équilibre en temps réel** : Analyse automatique de la repartition du repas selon des proportions idéales prédéfinies (Plats : 50 %, Entrées : 25 %, Boissons : 15 %, Desserts : 10 %).
+* **Indicateurs visuels** : Alertes en cas de déséquilibre avec précision des éléments manquants.
+* **Visualisation détaillée** : Affichage sous forme de listes (`Treeview`) pour chaque catégorie.
+* **Interface sombre moderne** : Intégration du thème `Azure` pour Tkinter.
 
 ---
 
-## 🛠️ Prerequisites
+## 🛠️ Prérequis
 
 * **Python 3.x**
-* **Tkinter** (included by default with most Python installations)
-* The `azure.tcl` theme file and its assets placed in the project root directory[cite: 1]
+* **Tkinter** (inclus par défaut avec la plupart des installations Python)
+* Le fichier de thème `azure.tcl` dans le répertoire racine du projet[cite: 1]
 
 ---
 
-## 🚀 Installation & Running
+## 🚀 Installation et Lancement
 
-1. **Clone the repository**:
+1. **Cloner le dépôt** :
    ```bash
    git clone https://github.com/Hauxenbro/RepasEqulibreCompteur.git
    cd RepasEqulibreCompteur
